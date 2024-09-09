@@ -1,0 +1,52 @@
+/* Style for the entire Checkout container */
+.checkout-container-fluid {
+  /* Remove the gray background */
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Style for the content within Checkout */
+.checkout-content {
+  /* Styles for the content within the Checkout component */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Place elements vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+}
+
+/* Style for the card image */
+.checkout-img {
+  /* Styles for the card image */
+  max-width: 100%; /* Make the image take full width */
+  max-height: 300px; /* Set a maximum height for the image */
+  margin: 20px 0; /* Add margin to separate image from text */
+}
+
+/* Style for the "Order Now" button */
+.checkout-button {
+  /* Styles for the button */
+  background-color: #eccfd3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px; /* Add margin to separate button from image */
+  margin-bottom: 100px; /* Add margin below the button */
+}
+
+/* Style for the text */
+.checkout-text {
+  /* Styles for the text */
+  color: #080808;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px; /* Add margin below the text */
+}
+
+.card-title-right {
+  text-align: right;
+  margin-right: 20px; /* Adjust the margin as needed */
+}

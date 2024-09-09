@@ -1,0 +1,78 @@
+/* Order.css */
+
+/* Custom login wrapper */
+.custom-login-wrapper {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  /* Custom auth card */
+  .custom-auth-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Grid container for image and form */
+  .custom-grid-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Grid item for the image */
+  .custom-grid-item {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed for spacing */
+  }
+  
+  /* Image style */
+  .custom-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Form container */
+  .custom-form-container {
+    flex: 1;
+  }
+  
+  /* Form style */
+  .custom-form {
+    padding: 10px;
+  }
+  
+  /* Form control styles */
+  .custom-form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5f3f3;
+    border-radius: 5px;
+  }
+  
+  /* Form label style */
+  .custom-label {
+    font-weight: bold;
+  }
+  
+  /* Button style */
+  .custom-button {
+    background-color:#fccdd4  ;
+    color: #020202;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color:  #fa72c6;
+  }
+  
+  /* Additional custom styles as needed */
+  

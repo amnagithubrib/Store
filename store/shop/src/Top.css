@@ -1,0 +1,37 @@
+/* top.css */
+.custom-navbar {
+    background-color: #fdeaed; /* Baby Pink background color */
+    color: #000; /* Black text color */
+  }
+  
+  .custom-navbar .nav-link {
+    color: #000; /* Black text color for links */
+  }
+  .navbar-brand {
+    font-size: 34px; /* Adjust the font size */
+    font-weight: bold; /* Adjust the font weight */
+    color: #000; /* Change the text color to black */
+     /* Add underline */
+    /* Add any other styles you desire */
+  }
+  /* Add custom styles to the .nav-link class */
+.nav-link {
+    font-weight: bold; /* Adjust the font weight */
+    color: #000; /* Change the text color to black */
+    /* Add any other styles you desire */
+  }
+  
+  /* Style the hover effect for the .nav-link class */
+  .nav-link:hover {
+    color: #fa72c6; /* Change the text color on hover */
+    text-decoration: none; /* Remove the default underline on hover */
+    /* Add any other hover styles you desire */
+  }
+
+  .search-bar {
+    width: 300px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    /* You can adjust other CSS properties as needed */
+  }
+  
+  

@@ -1,0 +1,26 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .service {
+    flex: 1;
+    padding: 15px;
+    background-color: white; /* Background color */
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .service img {
+    max-width: 100px; /* Adjust the max width for the images */
+    margin: 0 auto 10px; /* Center the image and add some spacing */
+  }
+  
+  .service h3 {
+    font-size: 18px;
+  }
+  
+  .service p {
+    font-size: 14px;
+  }
+  

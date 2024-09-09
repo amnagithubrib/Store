@@ -1,0 +1,55 @@
+/* Cards.css */
+
+/* Style for the card container */
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom to create space between cards and footer */
+  padding-bottom: 10px; /* Add padding at the bottom of the grid */
+}
+
+/* Style for card title */
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Style for card text */
+.card-text {
+  font-size: 14px;
+  max-height: 3.6em; /* Adjust as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Style for the rating stars */
+.rating {
+  margin-top: 10px;
+}
+
+/* Style for the button */
+.custom-button {
+  background-color: #fccdd4;
+  color: black;
+  border: none;
+  width: 100%;
+}
+
+/* Hover effect for the button */
+.custom-button:hover {
+  background-color: #fa72c6;
+}
+
+/* Style for the card image */
+.custom-card-img {
+  width: 100%;
+  height: 200px; /* Adjust to your preferred height */
+}
+
+/* Style for the card */
+.custom-card {
+  width: 100%; /* Allow cards to take full container width */
+  border: 1px solid #ccc;
+  margin-bottom: 10px; /* Margin for spacing between individual cards */
+  height: 400px; /* Set a new fixed height for the cards, e.g., 400px */
+}

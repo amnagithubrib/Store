@@ -1,0 +1,52 @@
+/* Signin.css */
+.login-form {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  .login-form h2 {
+    color: #333;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .login-form button {
+    background-color:  #fa72c6;
+    color: rgb(14, 13, 13);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color:  #fa72c6;
+  }
+  
+  .login-form p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  /* Add other styles as needed */
+  

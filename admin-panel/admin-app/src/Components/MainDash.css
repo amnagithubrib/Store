@@ -1,0 +1,24 @@
+.MainDash{
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.MainDash {
+    overflow-y: auto; /* Add scrollbar when content is taller than the container */
+    max-height: 100vh; /* Set a maximum height for the container */
+  }
+
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+}

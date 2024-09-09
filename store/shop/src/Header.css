@@ -1,0 +1,69 @@
+/* Header.css */
+
+/* Styling for the social media navbar */
+.navbar {
+  background-color: #fdeaed; /* Background color */
+  padding: 10px 0; /* Adjust top and bottom padding */
+  text-align: center; /* Center-align the navbar */
+}
+
+/* Styling for the navbar list */
+.navbar-nav {
+  list-style-type: none;
+  padding: 0; /* Remove default padding */
+  display: flex;
+  justify-content: center; /* Center the list items horizontally */
+}
+
+/* Styling for individual navbar items (icons) */
+.nav-item {
+  margin: 0 10px; /* Add spacing between items */
+}
+
+/* Styling for navbar links (icons) */
+.nav-link {
+  color: black; /* Text color */
+  text-decoration: none; /* Remove underlines */
+  display: inline-flex; /* Display icons in a row */
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+/* Hover styles for navbar links (icons) */
+.nav-link:hover {
+  color: #fa72c6; /* Change the text color on hover */
+}
+
+/* Styling for the header top strip on the right side */
+.header-top-strip {
+  background-color: #fdeaed; /* Background color */
+  text-align: right; /* Right-align the content */
+}
+
+/* Styling for the text and phone number in the header top strip */
+.header-top-strip p {
+  color: #fff; /* Text color */
+  margin-bottom: 0; /* Remove margin at the bottom */
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+/* Hover styles for the "Helpline" text and "Free Shipping Over Rs.50000 & Free Returns" text in the header top strip */
+.header-top-strip p:hover {
+  color: #fa72c6; /* Change the text color on hover */
+}
+
+/* Styling for the phone number link in the header top strip */
+.header-top-strip a {
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underlines */
+}
+
+
+.icon-link {
+  color: black; /* Set the default color for the icons */
+  transition: color 0.3s; 
+  /* Add a smooth color transition effect */
+}
+
+.icon-link:hover {
+  color: #FFB6C1;
+}

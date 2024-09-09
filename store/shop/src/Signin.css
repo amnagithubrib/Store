@@ -1,0 +1,50 @@
+/* Signin.css */
+
+.sign-in-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .sign-in-form h2 {
+    color: #0c0a0b; /* Blue color for the heading */
+  }
+  
+  .sign-in-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #495057; /* Dark gray color for labels */
+  }
+  
+  .sign-in-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px;
+  }
+  
+  .sign-in-form button {
+    background-color: #fa72c6; /* Blue color for the button */
+    color: #111010; /* White color for text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sign-in-form button:hover {
+    background-color: #fa72c6; /* Darker blue color on hover */
+  }
+  
+  .cart-image {
+    max-width: 100%; /* Adjust the max-width as needed */
+    height: auto;
+  }
+  .cart-image {
+    max-width: 150%; /* Adjust the max-width as needed */
+    height: auto;
+     /* Add border-radius for rounded corners */
+  }
